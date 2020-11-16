@@ -7,6 +7,7 @@ class HeroBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
+        color: Colors.white,
         image: DecorationImage(
           image: NetworkImage(
               "https://i.ytimg.com/vi/l0W2e1mGntQ/maxresdefault.jpg"),
@@ -14,7 +15,7 @@ class HeroBox extends StatelessWidget {
           fit: BoxFit.fitHeight,
         ),
       ),
-      height: 600,
+      height: MediaQuery.of(context).size.height,
       alignment: Alignment.centerLeft,
       width: double.infinity,
       padding: EdgeInsets.symmetric(horizontal: 50),
