@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web/pages/Homepage/carousal.dart';
 import 'package:flutter_web/pages/Homepage/itemsection.dart';
 import 'package:flutter_web/pages/navbar.dart';
 
@@ -14,6 +15,7 @@ class HomePage extends StatelessWidget {
             Navbar(),
             HeroBox(),
             ItemSection(),
+            CarouselSection(),
           ],
         ),
       ),
